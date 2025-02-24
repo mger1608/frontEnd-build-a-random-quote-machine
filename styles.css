@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+#quote-box {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 600px;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.quote-text i {
+  font-size: 1.1em;
+  margin: 0.5px;
+  color: #333;
+}
+
+.quote-author {
+  font-size: 1.3em;
+}
